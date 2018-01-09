@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Screenshot Attached]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot Attached]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot Attached]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot Attached]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot Attached]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2018-01-02T05:49:10Z" name="TestNGSuite" finished-at="2018-01-02T05:49:23Z" duration-ms="12366">
+    <groups>
+    </groups>
+    <test started-at="2018-01-02T05:49:10Z" name="Test" finished-at="2018-01-02T05:49:23Z" duration-ms="12366">
+      <class name="news360.news360">
+        <test-method is-config="true" signature="properties()[pri:0, instance:news360.news360@74751b3]" started-at="2018-01-01T21:48:46Z" name="properties" finished-at="2018-01-01T21:49:10Z" duration-ms="23998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- properties -->
+        <test-method signature="launchBrowser()[pri:1, instance:news360.news360@74751b3]" started-at="2018-01-01T21:49:10Z" name="launchBrowser" finished-at="2018-01-01T21:49:16Z" duration-ms="5761" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshot Attached]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="signUp()[pri:2, instance:news360.news360@74751b3]" started-at="2018-01-01T21:49:16Z" name="signUp" finished-at="2018-01-01T21:49:16Z" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshot Attached]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method signature="doLogin()[pri:3, instance:news360.news360@74751b3]" started-at="2018-01-01T21:49:16Z" name="doLogin" finished-at="2018-01-01T21:49:21Z" depends-on-methods="news360.news360.signUp" duration-ms="4838" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshot Attached]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="verifyLogin()[pri:4, instance:news360.news360@74751b3]" started-at="2018-01-01T21:49:21Z" name="verifyLogin" finished-at="2018-01-01T21:49:21Z" duration-ms="18" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshot Attached]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="doLogout()[pri:5, instance:news360.news360@74751b3]" started-at="2018-01-01T21:49:21Z" name="doLogout" finished-at="2018-01-01T21:49:23Z" duration-ms="1608" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshot Attached]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- doLogout -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:news360.news360@74751b3]" started-at="2018-01-01T21:49:24Z" name="CloseBrowser" finished-at="2018-01-01T21:49:25Z" duration-ms="1423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- news360.news360 -->
+    </test> <!-- Test -->
+  </suite> <!-- TestNGSuite -->
+</testng-results>

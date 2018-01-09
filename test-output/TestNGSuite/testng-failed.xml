@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [TestNGSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listeners.CustomListeners"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="news360.news360">
+        <methods>
+          <include name="signUp"/>
+          <include name="properties"/>
+          <include name="CloseBrowser"/>
+          <include name="doLogin"/>
+          <include name="doLogout"/>
+        </methods>
+      </class> <!-- news360.news360 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [TestNGSuite] -->

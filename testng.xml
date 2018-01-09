@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="TestNGSuite">
+
+<listeners>
+
+<listener class-name="listeners.CustomListeners"></listener>
+<listener class-name="org.uncommons.reportng.HTMLReporter"> </listener>
+
+
+</listeners>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="news360.news360"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- TestNGSuite -->
